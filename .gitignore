@@ -1,0 +1,14 @@
+# Dependencies - these can be installed again using npm install
+node_modules/
+client/node_modules/
+
+# Build output
+client/dist/
+
+# Environment variables and secret files
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*S
